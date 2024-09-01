@@ -1,0 +1,1 @@
+G:\CHATBOT\intents.json
