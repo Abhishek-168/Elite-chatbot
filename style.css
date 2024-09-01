@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+	body {
+	width: 100vw;
+	height: 100vh;
+	font-family: sans-serif;
+	padding: 10em 10em;
+	background: url(./bg.jpg);
+	opacity: 0.5;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: 100% 20%;
+	background-size: cover;
+	background-color:blueviolet;
+    background-image:-webkit-image-set("https://www.shutterstock.com/image-vector/robot-chatbot-head-icon-sign-600nw-2038215902.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	}  
+	.glass {
+	width: 1200px;
+	height: 600px;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 50px;
+	color: #000;
+	border-radius: 9px;
+	backdrop-filter: blur(50px);
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+	line-height: 1.5;
+	transform: translatey(-5%);
+	transition: transform 0.5s;
+	}
+	.glass-1 {
+	width: 500px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 50px;
+	color: rgb(122, 82, 82);
+	border-radius: 9px;
+	backdrop-filter: blur(50px);
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+	line-height: 1.5;
+	transform: translatey(-5%);
+	transition: transform 0.5s;
+	font-size: 1.7rem;
+	}
+	.glass h1 {
+	font-size: 2.0rem;
+	text-align: center;
+	background-color: blue;
+	box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.8);
+	}
+	.glass h2 {
+	font-size: 2rem;
+	margin-top: 20px;
+	padding-left: 5%;
+	box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.8);
+    }
+	.input {
+	width: 110%;
+	height: 70px;
+	overflow: hidden;
+	margin-top: 40px;
+	}
+	.input input {
+	width: 100%;
+	height: 70px;
+	border: none;
+	padding-left: 30px;
+	padding-top: 0;
+	outline: none;
+	font-size: 1.5rem;
+	border-radius: 20px;
+	}
+	.glass p {
+	font-size: 1.6rem;
+	margin-top: 30px;
+    background-color: rgb(0, 225, 255);
+	padding-left: 5%;
+	box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.8);
+	}
+	
